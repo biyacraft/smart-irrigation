@@ -1,0 +1,14 @@
+{
+    "version": 2,
+   
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "/"
+        }
+    ],
+    "env": {
+        "DB":"mongodb+srv://solomonadola:BjVWr6fPE9hlD9c5@cluster0.mn2hd3v.mongodb.net/smart-irrigation",
+        "JWT_SECRET":"smartsecret"
+      }
+}
