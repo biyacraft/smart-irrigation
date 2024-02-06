@@ -5,6 +5,8 @@ import LoginScreen from "./src/screens/LoginScreen";
 import DashboardScreen from "./src/screens/DashboardScreen";
 import RegistrationScreen from "./src/screens/RegistrationScreen";
 
+
+
 const App = () => {
   return (
     <NavigationContainer>
