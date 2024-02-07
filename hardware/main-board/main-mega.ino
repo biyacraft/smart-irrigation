@@ -2,8 +2,10 @@
 #include "DHT.h"
 #include <ArduinoJson.h>
 
+
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
 //constants
+
 const String serial_number = "txt-tdt";
 const int relay_Pin = 14;
 const int DHT11_Sesnor = 52;
