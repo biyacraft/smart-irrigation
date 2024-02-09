@@ -2,12 +2,14 @@ const fs = require("fs");
 const csv = require("csv-parser");
 const KNNRegression = require("ml-knn");
 
+
 exports.prediction = (sensorData) => {
   return new Promise((resolve, reject) => {
     const features = [];
     const labels = [];
     let predictedAction;
 
+    
     // Load the dataset from CSV file
     fs.createReadStream(__dirname + "/models/dataset.csv")
       .pipe(csv())
