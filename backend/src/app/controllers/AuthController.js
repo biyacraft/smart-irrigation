@@ -2,6 +2,7 @@ const nodemailer = require("nodemailer");
 const { v4: uuidv4 } = require("uuid");
 const authService = require("../services/AuthService");
 const {
+  
   validateRegistration,
   validateLogin,
 } = require("../../utils/validation");
