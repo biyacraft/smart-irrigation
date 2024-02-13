@@ -10,6 +10,4 @@ router.get("/register", (req, res) =>
 router.post("/register", handleRegistration);
 router.post("/login", handleLogin);
 router.post("/reset");
-
-
 module.exports = router;
